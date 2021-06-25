@@ -1,0 +1,220 @@
+.d1 {
+  background-color: rgba(5, 5, 5, 0.705);
+  height: 103vh;
+  width: 99vw;
+  margin-top: -103vh;
+  position: absolute;
+}
+
+.d2 {
+  position: fixed;
+  background-color: rgba(1, 2, 1, 0.568);
+
+  /* background-color: rgba(5, 5, 5, 0.705); */
+
+  width: 99vw;
+  height: 10vh;
+  font-weight: 350;
+}
+
+.logo {
+  opacity: 0.8;
+  float: left;
+  margin: 1vh;
+
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.ph {
+  margin-top: -3.5vh;
+  color: white;
+  margin-left: 54vh;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.Trip {
+  width: 8vw;
+  height: 2vh;
+  margin-top: -4vh;
+  color: white;
+  float: right;
+  margin-right: 25vw;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.work {
+  width: 4vw;
+  height: 2vh;
+  margin-top: -4vh;
+  color: white;
+  float: right;
+  margin-right: 19vw;
+}
+
+.blog {
+  width: 3vw;
+  height: 2vh;
+  margin-top: -4vh;
+  color: white;
+  float: right;
+  margin-right: 11vw;
+}
+
+.box1 {
+  margin-top: 23vh;
+
+  width: 99vw;
+  height: 10vh;
+  /* background-color: rgba(5, 5, 5, 0.705); */
+  color: white;
+  box-sizing: border-box;
+}
+
+#txt {
+  text-align: center;
+  color: white;
+
+  font-size: 3.8vw;
+  font-weight: 500;
+  justify-content: content;
+}
+
+.box2 {
+  display: flex;
+  width: 99vw;
+  min-height: 15vh;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+
+  justify-content: center;
+}
+
+.box2 .txt1 {
+  margin-left: 15px;
+  height: 80px;
+  /* line-height: 90px; */
+  /* margin-top: -2vh; */
+  line-height: 74px;
+  /* background-color: green; */
+  overflow: hidden;
+}
+
+.txt1 li {
+  color: white;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 10s steps(5) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.txt1 li span {
+  position: relative;
+}
+
+.txt1 li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 1.9vh;
+  border-left: 4px solid white;
+  animation: typing 2s steps(5) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 8px -35px -5px 35px;
+  }
+}
+
+.srchbar {
+  width: 99vw;
+  height: 10vh;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.rating {
+  width: 99vw;
+  height: 30vh;
+  /* background-color: red; */
+  margin-top: 10vh;
+}
+
+.hpyfolow {
+  color: white;
+  float: left;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin-top: 20vh;
+  margin-left: -8vw;
+}
+
+.hpytrav {
+  color: white;
+  float: left;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin-top: 24vh;
+  margin-left: -12vw;
+}
+
+.liked {
+  color: white;
+  float: right;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin-top: 21vh;
+  margin-right: -8vw;
+}
+
+.stars {
+  color: white;
+  float: right;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin-top: 25vh;
+  margin-right: -11vw;
+}
+
+.map {
+  color: white;
+  float: right;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin-top: 21vh;
+  margin-right: -36vw;
+}
+
+.maps {
+  color: white;
+  float: right;
+  font-size: 2rem;
+  font-weight: lighter;
+
+  margin-top: 25vh;
+  margin-right: -38vw;
+}

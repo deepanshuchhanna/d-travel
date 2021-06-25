@@ -1,0 +1,45 @@
+.c1 {
+  width: 99vw;
+  height: 46vh;
+  margin-top: -2vh;
+  /* background-color: wheat; */
+}
+
+.heading {
+  color: rgba(5, 107, 82, 0.842);
+  margin-top: 10vh;
+  /* background-color: aliceblue; */
+  height: 7vh;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.e1 {
+  /* background-color: red; */
+  width: 11vw;
+  min-height: 10vh;
+  margin-left: 1vw;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.f1 {
+  font-size: 1.3srem;
+  font-weight: 500;
+}
+
+.e2 {
+  display: inline-block;
+  /* background-color: red; */
+  width: 11vw;
+  min-height: 10vh;
+  margin-left: 4vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+.f2 {
+  font-size: 1.3srem;
+  font-weight: 500;
+}
